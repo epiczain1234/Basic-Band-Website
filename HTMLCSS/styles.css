@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=New+Rocker&display=swap');
+
+* {
+    box-sizing: border-box; 
+    font-family: Raleway ;
+    color: #777;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.nav ul{
+    margin:0;
+}
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display:inline-block;
+    padding:.5em;
+    color:white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li{
+    padding: 0 5%
+}
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: white;
+}
+
+.content-section{
+    margin:1em;
+}
+
+.about-band-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+
+}
+
+.main-footer-container{
+    display:flex;
+    align-items: center;
+
+}
+.main-footer-container ul{
+    flex-grow:1;
+    text-align: end;
+}
+
+.section-header{
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color:#333;
+    text-align: center;
+    font-size: 2.5em;
+}
+.media-class{
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.main-header{
+    background-color: rgba(0,0,0,.6);
+    background-image: url("a1.jpeg");
+    background-blend-mode: multiply; 
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.main-footer{
+    background-color:#56CCF2;
+    color: white;
+    padding: .25em 0;
+
+}
